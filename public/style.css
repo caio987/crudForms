@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #532A72;
+}
+header, footer{
+    background-color: #A252E0;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+}
+nav a{
+    /* border: solid; */
+    color: #fff;
+    margin: 0 20px;
+    text-decoration: none;
+    transition: .5s;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav a:hover{
+    background-color: #8443B6;
+}
+h3{
+    text-align: center;
+    margin: -5px 0 20px 0;
+}
+form, #table{
+    border: solid;
+    color: #fff;
+    background-color: #9D50D8;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 5% auto;
+    text-align: center;
+    padding: 20px 30px;
+}
+input{
+    margin: 10px 0 20px 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+}
+button{
+    padding: 8px 18px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    /* margin: 10px 25% 0; */
+    background-color: #623188;
+    color: #fff;
+    transition: .5s;
+}
+button:hover{
+    padding: 12px 24px;
+    background-color: #4E276C;
+}
+td, th{
+    border: 1px solid;
+    padding: 3px;
+}
+td{
+    padding: 3px 10px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    padding: 20px 0;
+    width: 100%;
+}
+footer h3{
+    margin-bottom: -5px;
+}

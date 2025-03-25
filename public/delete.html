@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="2"> -->
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="get.html">GET</a>
+            <a href="index.html">POST</a>
+            <a href="put.html">PUT</a>
+        </nav>
+    </header>
+    <main>
+        <form action="">
+            <h3>DELETE</h3>
+            <label>CPF:</label><br>
+            <input type="text" id="cpf"><br>
+            <button type="button" onclick="deletarDados()">Deletar</button>
+        </form>
+        <div id="table">
+            <h3>Pessoas cadastradas</h3>
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>CPF</th>
+                </tr>
+                <tbody id="tabela-corpo"></tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <h3>Todos os direitos reservados a Caio André</h3>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

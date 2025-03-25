@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="2"> -->
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">POST</a>
+            <a href="get.html">GET</a>
+            <a href="delete.html">DELETE</a>
+        </nav>
+    </header>
+    <main>
+        <form action="">
+            <h3>PUT</h3>
+            <label>ID:</label><br>
+            <input type="text" id="id" readonly><br>
+            <label>Nome:</label><br>
+            <input type="text" id="nomeAtualizar"><br>
+            <label>Idade:</label><br>
+            <input type="text" id="idadeAtualizar"><br>
+            <label>CPF:</label><br>
+            <input type="text" id="cpfAtualizar" placeholder="Digite o CPF para busca"><br>
+            <button type="button" onclick="buscarDados()">Buscar</button>
+            <button type="button" onclick="atualizarDados()">Atualizar</button>
+        </form>
+        <!-- <form action="">
+            <h3>DELETE</h3>
+            <label>CPF:</label>
+            <input type="text" id="cpf">
+            <button type="button" onclick="deletarDados()">Deletar</button>
+        </form> -->
+    </main>
+    <footer>
+        <h3>Todos os direitos reservados a Caio André</h3>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
